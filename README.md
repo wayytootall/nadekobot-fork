@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NadekoBot - Custom Fork
 
 This is my custom fork of [NadekoBot](https://github.com/nadeko-bot/nadekobot), an open-source Discord bot written in C# using .NET 8.
@@ -25,3 +26,6 @@ This project is licensed under the AGPLv3 License - see the [LICENSE](LICENSE.md
 
 - Original [NadekoBot](https://github.com/nadeko-bot/nadekobot) project
 - All contributors to the original project
+=======
+# nadekobot-fork
+>>>>>>> ed0a67227855ecfe1448b5162c2d4afb124e25ae
