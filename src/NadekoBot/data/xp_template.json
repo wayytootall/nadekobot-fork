@@ -1,0 +1,96 @@
+{
+  "Version": 3,
+  "output_size": {
+    "X": 500,
+    "Y": 245
+  },
+  "User": {
+    "Name": {
+      "Color": "ffffffff",
+      "Show": true,
+      "FontSize": 25,
+      "Pos": {
+        "X": 65,
+        "Y": 8
+      }
+    },
+    "Icon": {
+      "Show": true,
+      "Pos": {
+        "X": 11,
+        "Y": 11
+      },
+      "Size": {
+        "X": 38,
+        "Y": 38
+      }
+    },
+    "Level": {
+      "Color": "ffffffff",
+      "Show": true,
+      "FontSize": 22,
+      "Pos": {
+        "X": 35,
+        "Y": 101
+      }
+    },
+    "Rank": {
+      "Color": "ffffffff",
+      "Show": true,
+      "FontSize": 18,
+      "Pos": {
+        "X": 100,
+        "Y": 115
+      }
+    },
+    "Xp": {
+      "Bar": {
+        "Show": true,
+        "Guild": {
+          "Color": "00000066",
+          "PointA": {
+            "X": 202,
+            "Y": 66
+          },
+          "PointB": {
+            "X": 180,
+            "Y": 145
+          },
+          "Length": 225,
+          "Direction": 3
+        }
+      },
+      "Guild": {
+        "Color": "ffffffff",
+        "Show": true,
+        "FontSize": 25,
+        "Pos": {
+          "X": 330,
+          "Y": 104
+        }
+      }
+    }
+  },
+  "Club": {
+    "Icon": {
+      "Show": true,
+      "Pos": {
+        "X": 451,
+        "Y": 15
+      },
+      "Size": {
+        "X": 29,
+        "Y": 29
+      }
+    },
+    "Name": {
+      "Color": "ffffffff",
+      "Show": true,
+      "FontSize": 20,
+      "Pos": {
+        "X": 394,
+        "Y": 40
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+# DO NOT CHANGE
+version: 11
+weatherSeed: w%29';^eGE)9oWHM(aI9I;%1[.r^z2ZS7ShV,l')o(e%#"hVzb>oxQq^`.&/7srh
+requireCaptcha: true
+starEmojis:
+  - <:emptystar:1326838565786877962>
+  - <:onestar:1326838456739168361>
+  - <:twostar:1326838508198957107>
+  - <:threestar:1326838525601251429>
+  - <:fourstar:1326838552520294462>
+spotEmojis:
+  - <:ocean:1328519734953771120>
+  - <:river:1328519754620862504>
+  - <:lake:1328315260561788989>
+  - <:swamp:1328519766083633224>
+  - <:reef:1328519744646545421>
+chance:
+  fish: 80
+  trash: 15
+  nothing: 5
+fish:
+  - id: 0
+    name: Bass
+    weather: 
+    spot: 
+    time: 
+    chance: 100
+    stars: 4
+    fluff: Very common.
+    condition: 
+    image: https://cdn.nadeko.bot/fish/bass.png
+    emoji: <:bass:1328520376892002386>
+trash:
+  - id: 1002
+    name: Plastic Bag
+    weather: 
+    spot: 
+    time: 
+    chance: 50
+    stars: 4
+    fluff: Trophy of your contribution to the environment.
+    condition: 
+    image: https://cdn.nadeko.bot/fish/plasticbag.png
+    emoji: <:plasticbag:1328520895454515211>
+items:
+- id: 1
+  itemType: Pole
+  name: "Wooden Rod"
+  description: "Better than catching it with bare hands."
+  price: 1000
+  fishMultiplier: 1.2
+  
+- id: 11
+  itemType: Pole
+  name: Magnet on a Stick
+  description: "Attracts all trash, not just metal."
+  price: 3000
+  fishMultiplier: 0.9
+  trashMultiplier: 2
+  
+- id: 21
+  itemType: Bait
+  name: "Corn"
+  description: "Just some cooked corn."
+  price: 100
+  uses: 100
+  rareMultiplier: 1.1
+
+- id: 31
+  itemType: Potion
+  name: "A Cup of Tea"
+  description: "Helps you focus."
+  price: 12000
+  durationMinutes: 30
+  maxStarMultiplier: 1.1
+  fishingSpeedMultiplier: 1.01
+  
+- id: 41
+  itemType: Boat
+  name: "Canoe"
+  description: "Lets you fish a little faster."
+  price: 3000
+  fishingSpeedMultiplier: 1.201
+  maxStarMultiplier: 1.1

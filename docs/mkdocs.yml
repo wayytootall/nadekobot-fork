@@ -1,0 +1,80 @@
+site_name: 'NadekoBot'
+site_url: 'https://nadeko.bot'
+repo_url: 'https://github.com/nadeko-bot/nadekobot'
+site_author: 'Breaker'
+docs_dir: 'md'
+
+theme:
+    name: material
+    palette:
+          - media: "(prefers-color-scheme: light)"
+            scheme: default
+            primary: indigo
+            accent: blue
+            toggle:
+                icon: material/weather-sunny
+                name: Switch to dark mode
+          - media: "(prefers-color-scheme: dark)"
+            scheme: slate
+            primary: black
+            accent: blue
+            toggle:
+                icon: material/weather-night
+                name: Switch to light mode
+    features:
+        - navigation.instant
+        - navigation.expand
+        - navigation.top
+    font:
+        text: Source Sans Pro
+        code: Source Code Pro
+    logo: assets/favicon.png
+    favicon: assets/favicon.png
+    icon:
+        repo: material/github
+
+extra:
+  homepage: https://nadeko.bot
+
+plugins:
+    - search
+    - exclude:
+        glob:
+          - 'guides/vps-linux-guide.md'
+          - 'snippets/supported-platforms.md'
+
+markdown_extensions:
+    - attr_list
+    - codehilite:
+        guess_lang: false
+    - toc:
+        permalink: true
+    - pymdownx.betterem:
+        smart_enable: all
+    - admonition
+    - pymdownx.inlinehilite
+    - pymdownx.superfences
+    - pymdownx.blocks.tab:
+        alternate_style: true
+    - pymdownx.snippets
+    - pymdownx.details
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+    - Home: index.md
+    - Guides:
+        - Desktop Guide: guides/desktop-guide.md
+        - CLI Guide: guides/cli-guide.md
+        - Docker Guide: guides/docker-guide.md
+        - Source Guide: guides/source-guide.md
+    - Commands:
+        - Commands List: https://nadeko.bot/commands
+    - Features Explained:
+        - Basic Creds: creds-guide.md
+        - Medusa System:
+            - medusa/getting-started.md
+            - medusa/creating-a-medusa.md
+            - medusa/snek-lifecycle.md
+    - Donate: donate.md
